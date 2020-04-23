@@ -1,4 +1,5 @@
 :root {
+
     --red: hsl(0, 78%, 62%);
     --cyan: hsl(180, 62%, 55%);
     --orange: hsl(34, 97%, 64%);
@@ -6,11 +7,38 @@
     --very-dark-blue: hsl(234, 12%, 34%);
     --grayish-blue: hsl(229, 6%, 66%);
     --very-light-gray: hsl(0, 0%, 98%);
+    background: var(--very-light-gray);
+    color: var(--very-dark-blue);
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     --font-weight-light: 200;
     font-weight: 400;
     --font-weight-bold: 600;
+}
+
+div {
+    background: white;
+    box-shadow: 5px 10px var(--very-dark-blue);
+}
+
+#supervisor {
+    background: transparent url(./images/icon-supervisor.svg);
+    border-top: 2px solid var(--cyan);
+}
+
+#team-builder {
+    background: transparent url(./images/icon-team-builder.svg);
+    border-top: 2px solid var(--red);
+}
+
+#karma {
+    background: transparent url(./images/icon-karma.svg);
+    border-top: 2px solid var(--orange);
+}
+
+#calculator {
+    background: transparent url(./images/icon-calculator.svg);
+    border-top: 2px solid var(--blue);
 }
 
 .attribution {
@@ -22,6 +50,4 @@
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 1440px) {
-    
-}
+@media screen and (min-width: 1440px) {}
