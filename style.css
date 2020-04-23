@@ -22,22 +22,22 @@ div {
 }
 
 #supervisor {
-    background: transparent url(./images/icon-supervisor.svg);
+    background: transparent url(./images/icon-supervisor.svg) no-repeat bottom right;
     border-top: 2px solid var(--cyan);
 }
 
 #team-builder {
-    background: transparent url(./images/icon-team-builder.svg);
+    background: transparent url(./images/icon-team-builder.svg) no-repeat bottom right;
     border-top: 2px solid var(--red);
 }
 
 #karma {
-    background: transparent url(./images/icon-karma.svg);
+    background: transparent url(./images/icon-karma.svg) no-repeat bottom right;
     border-top: 2px solid var(--orange);
 }
 
 #calculator {
-    background: transparent url(./images/icon-calculator.svg);
+    background: transparent url(./images/icon-calculator.svg) no-repeat bottom right;
     border-top: 2px solid var(--blue);
 }
 
